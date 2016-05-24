@@ -15,7 +15,7 @@ you wanna obey glasgows stopwords completely.
 words: the words at the top of the array that are not in alphabetical order
 """
 stopwords = ['t', 'm', 'just', 'like', 'think', 'don', 'want', 'say', 'really']
-stopwords += ['way', 'make']
+stopwords += ['way', 'make', 'know']
 stopwords += ['a', 'about', 'above', 'across', 'after', 'afterwards']
 stopwords += ['again', 'against', 'all', 'almost', 'alone', 'along']
 stopwords += ['already', 'also', 'although', 'always', 'am', 'among']
