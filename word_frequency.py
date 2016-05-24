@@ -12,10 +12,10 @@ resources here: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
 mention: some words are added specifically for retrieaval of the words of
 Nerdwriters1' video 'The Secret of Sexism'. Please remove these words if
 you wanna obey glasgows stopwords completely.
-words: 't', 'm', 'just', 'like', 'think', 'don'. They are at the top
-of the array.
+words: the words at the top of the array that are not in alphabetical order
 """
 stopwords = ['t', 'm', 'just', 'like', 'think', 'don', 'want', 'say', 'really']
+stopwords += ['way']
 stopwords += ['a', 'about', 'above', 'across', 'after', 'afterwards']
 stopwords += ['again', 'against', 'all', 'almost', 'alone', 'along']
 stopwords += ['already', 'also', 'although', 'always', 'am', 'among']
