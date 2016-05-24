@@ -48,9 +48,9 @@ http://stackoverflow.com/questions/29692972/youtube-comment-scraper-returns-limi
 http://programminghistorian.org/lessons/counting-frequencies
 
 ###Reflection
-Next time you code something substantial, do your research before you start coding too much. This time I went with the "Prototype and Patching" approach, starting with a simple prototype and incrementally dealing with the complications. I think this approach works when you don't have a deep understanding of the problem but it generated a lot of code that is unnecessarily complicated. Unreliable too seeing as I didn't find all the errors.
+Next time I code something substantial, Imma do my research before I start coding too much. This time I went with the "Prototype and Patching" approach, starting with a simple prototype and incrementally dealing with the complications. I think this approach works when you don't have a deep understanding of the problem but it generated a lot of code that is unnecessarily complicated. Unreliable too seeing as I didn't find all the errors.
 
-Next time you're gonna try out the planned development approach suggested in think python. 
+Next time I'm gonna try out the planned development approach suggested in think python. 
 
 Decide whether you wanna go a purely functional programming style or an OOP approach before you start coding, and figure out why that approach is better/more suitable than the other. Perhaps you have to do both at times but at least you've thought of it. 
 
