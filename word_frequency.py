@@ -8,8 +8,15 @@ from oauth2client.tools import argparser
 
 """the stopwords are taken from glasgows school of computing
 resources here: http://ir.dcs.gla.ac.uk/resources/linguistic_utils/stop_words
+
+mention: some words are added specifically for retrieaval of the words of
+Nerdwriters1' video 'The Secret of Sexism'. Please remove these words if
+you wanna obey glasgows stopwords completely.
+words: 't', 'm', 'just', 'like', 'think', 'don'. They are at the top
+of the array.
 """
-stopwords = ['a', 'about', 'above', 'across', 'after', 'afterwards']
+stopwords = ['t', 'm', 'just', 'like', 'think', 'don']
+stopwords += ['a', 'about', 'above', 'across', 'after', 'afterwards']
 stopwords += ['again', 'against', 'all', 'almost', 'alone', 'along']
 stopwords += ['already', 'also', 'although', 'always', 'am', 'among']
 stopwords += ['amongst', 'amoungst', 'amount', 'an', 'and', 'another']
@@ -46,7 +53,7 @@ stopwords += ['seeming', 'seems', 'serious', 'several', 'she', 'should']
 stopwords += ['show', 'side', 'since', 'sincere', 'six', 'sixty', 'so']
 stopwords += ['some', 'somehow', 'someone', 'something', 'sometime']
 stopwords += ['sometimes', 'somewhere', 'still', 'such', 'system', 'take']
-stopwords += ['t', 'ten', 'than', 'that', 'the', 'their', 'them', 'themselves']
+stopwords += ['ten', 'than', 'that', 'the', 'their', 'them', 'themselves']
 stopwords += ['then', 'thence', 'there', 'thereafter', 'thereby']
 stopwords += ['therefore', 'therein', 'thereupon', 'these', 'they']
 stopwords += ['thick', 'thin', 'third', 'this', 'those', 'though', 'three']

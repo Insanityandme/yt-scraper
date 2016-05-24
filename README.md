@@ -1,6 +1,9 @@
-A small script that scrapes comments from a youtube video
-As request by you nerdwriter1, here's the word count for your youtube video 'The Secret of Sexism'
+A small script that scrapes comments from a Youtube video
 
-Usage: Have to come up with this later
 
-Requirements: probably python v2.7 and really nothing else more than a commandline and a few megabytes of space =)
+**Usage**: `python word_frequency.py --developerkey="my_google_developer_api_key" --videoid="youtube video_ID"`
+
+**Requirements**: Python 2.7, Google Api Client Library, you can use pip:  `$ pip install --upgrade google-api-python-client
+
+A google account and a developer key, you don't need to set up a OAuth, just make a project and create a new Public API access key. 
+More instructions here: [https://developers.google.com/youtube/v3/getting-started]

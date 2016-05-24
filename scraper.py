@@ -1,6 +1,7 @@
 """Script to gather comments from a youtube video."""
 
 
+# Call the API's commentThreads.list method to list the existing comments.
 def scrape(service, video_id, pageToken=None):
     results = service.commentThreads().list(
              pageToken=pageToken,
@@ -15,6 +16,7 @@ def scrape(service, video_id, pageToken=None):
     return results
 
 
+# Call the API's comments.list method to list the existing comment replies.
 def get_comments(service, parent_id):
     results = service.comments().list(
         part="snippet",
