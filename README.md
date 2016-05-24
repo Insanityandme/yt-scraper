@@ -37,6 +37,7 @@ I have been running this script on python 2.7.10 on Mac OSX, it should work on o
 
 ####google-api-python-client 
 You can use pip:  
+
 `pip install --upgrade google-api-python-client`
 
 You also need a google account and a developer key, you don't need to set up a OAuth, just make a project and create a new Public API access key. 
