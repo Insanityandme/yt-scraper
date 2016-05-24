@@ -36,8 +36,8 @@ The "videoid" option specifies the YouTube video ID that uniquely identifies the
 I have been running this script on python 2.7.10 on Mac OSX, it should work on other 2.7.x versions. 
 
 ####google-api-python-client 
-you can use pip:  
-`$ pip install --upgrade google-api-python-client
+You can use pip:  
+`pip install --upgrade google-api-python-client`
 
 You also need a google account and a developer key, you don't need to set up a OAuth, just make a project and create a new Public API access key. 
 More instructions here: https://developers.google.com/youtube/v3/getting-started
