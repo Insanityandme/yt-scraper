@@ -2,7 +2,7 @@
 ![in-action](README/in-action.png)
 
 ##What is this poorly written code?
-I'm glad you asked, this is my first attempt on a project that teaches me HTTP requests and to work against an API in python, namely the Youtube Data API. 
+I'm glad you asked, this is my first attempt on a project that teaches me how to work withHTTP requests and to work against an API in python, namely the Youtube Data API. 
 
 The idea came from a request by [Nerdwriter1](https://www.youtube.com/user/Nerdwriter1), a Youtuber that creates video essays:
 
@@ -46,5 +46,24 @@ More instructions here: https://developers.google.com/youtube/v3/getting-started
 ###Thanks people on the internet
 http://stackoverflow.com/questions/29692972/youtube-comment-scraper-returns-limited-results
 http://programminghistorian.org/lessons/counting-frequencies
+
+###Reflection
+Next time you code something substantial, do your research before you start coding too much. This time I went with the "Prototype and Patching" approach, starting with a simple prototype and incrementally dealing with the complications. I think this approach works when you don't have a deep understanding of the problem but it generated a lot of code that is unnecessarily complicated. Unreliable too seeing as I didn't find all the errors.
+
+Next time you're gonna try out the planned development approach suggested in think python. 
+
+Decide whether you wanna go a purely functional programming style or an OOP approach before you start coding, and figure out why that approach is better/more suitable than the other. Perhaps you have to do both at times but at least you've thought of it. 
+
+Ask yourself if there's any possibility to create recursive functions, refactor for loops into list comprehensions? Divide the functionality so that every function does one separate task? 
+Is this shit even maintainable? Good question indeed, 
+
+Do your research got damn it, write it down and try to create boilerplate functions/classes/methods and start explaining what each thing would do. 
+
+This time there was a lot of new concepts to understand (multidimensional arrays, httplib2, http requests, GET, youtube fucking data API, debugging, unit testing). 
+
+Overall I'm super happy, I'm super impressed if you read all this, thanks!
+
+
+
 
  
