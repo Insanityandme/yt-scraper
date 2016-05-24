@@ -1,3 +1,6 @@
+##Youtube Comment Scraper
+![in-action](README/in-action.png)
+
 ##What is this poorly written code?
 I'm glad you asked, this is my first attempt on a project that teaches me HTTP requests and to work against an API in python, namely the Youtube Data API. 
 
@@ -20,6 +23,7 @@ I would love for this to be reviewed if anyone has any suggestions for improveme
 
 ##Usage
 **Terminal**
+
 `python word_frequency.py --developerkey="my_google_developer_api_key" --videoid="youtube video_ID"`
 
 the "developer" option specifics the key that uniquely
