@@ -19,4 +19,4 @@ you can use pip:
 A google account and a developer key, you don't need to set up a OAuth, just make a project and create a new Public API access key. 
 More instructions here: [https://developers.google.com/youtube/v3/getting-started]
 
-[request]: http://i.imgur.com/kz58Knr.png "nerd writer request"
+[request]: (http://i.imgur.com/kz58Knr.png)
