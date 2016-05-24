@@ -19,16 +19,17 @@ Either my script is poorly written and therefor it's slow or it just takes a lot
 I would love for this to be reviewed if anyone has any suggestions for improvements please mail me at bengtegardbook@gmail.com
 
 ##Usage
+**Terminal**
 `python word_frequency.py --developerkey="my_google_developer_api_key" --videoid="youtube video_ID"`
 
 the "developer" option specifics the key that uniquely
-identifies your google account for accessing youtube data API
+identifies your google account for accessing youtube data API.
 
-The "videoed" option specifies the YouTube video ID that uniquely identifies the video for which the comments will be fetched.
+The "videoid" option specifies the YouTube video ID that uniquely identifies the video for which the comments will be fetched.
 
 ###Requirements
 ####Python 2.7.x
-I have been running this script on python 2.7.10, it should work on other 2.7.x versions. 
+I have been running this script on python 2.7.10 on Mac OSX, it should work on other 2.7.x versions. 
 
 ####google-api-python-client 
 you can use pip:  
