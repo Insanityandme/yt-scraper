@@ -1,4 +1,5 @@
-##Youtube comment scraper
+##What is this poorly written code?
+I'm glad you asked, 
 
 ##Usage
 `python word_frequency.py --developerkey="my_google_developer_api_key" --videoid="youtube video_ID"`

@@ -15,7 +15,7 @@ you wanna obey glasgows stopwords completely.
 words: 't', 'm', 'just', 'like', 'think', 'don'. They are at the top
 of the array.
 """
-stopwords = ['t', 'm', 'just', 'like', 'think', 'don']
+stopwords = ['t', 'm', 'just', 'like', 'think', 'don', 'want', 'say', 'really']
 stopwords += ['a', 'about', 'above', 'across', 'after', 'afterwards']
 stopwords += ['again', 'against', 'all', 'almost', 'alone', 'along']
 stopwords += ['already', 'also', 'although', 'always', 'am', 'among']
