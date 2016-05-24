@@ -55,7 +55,7 @@ Next time I'm gonna try out the planned development approach suggested in think 
 Decide whether you wanna go a purely functional programming style or an OOP approach before you start coding, and figure out why that approach is better/more suitable than the other. Perhaps you have to do both at times but at least you've thought of it. 
 
 Ask yourself if there's any possibility to create recursive functions, refactor for loops into list comprehensions? Divide the functionality so that every function does one separate task? 
-Is this shit even maintainable? Good question indeed, 
+Is this shit even maintainable? Does it have to be? Good question indeed. 
 
 Do your research got damn it, write it down and try to create boilerplate functions/classes/methods and start explaining what each thing would do. 
 
