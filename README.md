@@ -1,12 +1,17 @@
 ##What is this poorly written code?
 I'm glad you asked, this is my first attempt on a project that teaches me HTTP requests and to work against an API in python.
 
-The idea came from a request by [Nerdwriter1](https://www.youtube.com/user/Nerdwriter1), a Youtuber that creates video essays on various topics of his interest.
+The idea came from a request by [Nerdwriter1](https://www.youtube.com/user/Nerdwriter1), a Youtuber that creates video essays:
 
 ![request](README/request.png)
 
 ##Usage
 `python word_frequency.py --developerkey="my_google_developer_api_key" --videoid="youtube video_ID"`
+
+the "developer" option specifics the key that uniquely
+identifies your google account for accessing youtube data API
+
+The "videoed" option specifies the YouTube video ID that uniquely identifies the video for which the comments will be fetched.
 
 ###Requirements
 ####Python 2.7.x
