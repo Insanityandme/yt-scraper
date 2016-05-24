@@ -57,7 +57,7 @@ Decide whether you wanna go a purely functional programming style or an OOP appr
 Ask yourself if there's any possibility to create recursive functions, refactor for loops into list comprehensions? Divide the functionality so that every function does one separate task? 
 Is this shit even maintainable? Does it have to be? Good question indeed. 
 
-Do your research got damn it, write it down and try to create boilerplate functions/classes/methods and start explaining what each thing would do. 
+Do your research, write it down and try to create boilerplate functions/classes/methods and start explaining what each thing would do. 
 
 This time there was a lot of new concepts to understand (multidimensional arrays, httplib2, http requests, GET, youtube fucking data API, debugging, unit testing). 
 
