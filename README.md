@@ -1,13 +1,13 @@
-#A small script that scrapes comments from a Youtube video
+##Youtube comment scraper
 
 ##Usage
 `python word_frequency.py --developerkey="my_google_developer_api_key" --videoid="youtube video_ID"`
 
-##Requirements
-###Python 2.7.x
+###Requirements
+####Python 2.7.x
 I have been running this script on python 2.7.10, it should work on other 2.7.x versions. 
 
-###google-api-python-client 
+####google-api-python-client 
 you can use pip:  
 `$ pip install --upgrade google-api-python-client
 
