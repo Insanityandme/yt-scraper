@@ -5,11 +5,14 @@ The idea came from a request by [Nerdwriter1](https://www.youtube.com/user/Nerdw
 
 ![request](README/request.png)
 
+
 It fetches all comments from a specific video you've given and spits out the top 10 words by frequency. 
 
-It's not perfect, depending on the amount of comments you're retrieving there's a big chance some data is lost, for me it's been about 10% depending on the size. Strangely enough, on the Nerdwriter1 video I got more comments than what exists, haven't debugged and I'll probably leave it as it is for now.
+It's not perfect, depending on the amount of comments you're retrieving there's a big chance some data is lost, for me it's been about 10% depending on the size. 
 
-Btw, it takes X amount of seconds t retrieve the data depending on the amount of comments being retrieved, I've done it on a 2000 comment video and it takes about 20-30 seconds unfortunately, so be patient. 
+Strangely enough, on the Nerdwriter1 video I got more comments than what exists, haven't debugged and I'll probably leave it as it is for now.
+
+**Note: it takes quite a lot of seconds to retrieve the data depending on the amount of comments being retrieved, I've done it on a 2000 comment video and it takes about 20-30 seconds unfortunately, so be patient**. 
 
 Either my script is poorly written and therefor it's slow or it just takes a lot of time to request a lot of data from Youtube. 
 
