@@ -2,7 +2,7 @@
 ![in-action](README/in-action.png)
 
 ##What is this poorly written code?
-I'm glad you asked, this is my first attempt on a project that teaches me how to work withHTTP requests and to work against an API in python, namely the Youtube Data API. 
+I'm glad you asked, this is my first attempt on a project that teaches me how to work with HTTP requests and to work against an API in python, namely the Youtube Data API. 
 
 The idea came from a request by [Nerdwriter1](https://www.youtube.com/user/Nerdwriter1), a Youtuber that creates video essays:
 
@@ -10,6 +10,12 @@ The idea came from a request by [Nerdwriter1](https://www.youtube.com/user/Nerdw
 
 
 It fetches all comments from a specific video you've given and spits out the top 10 words by frequency. 
+
+When we look at the output of our script, we see that a lot of the most frequent words in the comments are function words like "the", "of", and "and". 
+
+These are usually the most common words in any English language text, so they don't tell us much that is distinctive about the comment sections.
+
+So i've filtered out the most common words so we find words that are based on the context, these words are also known as stop words. 
 
 It's not perfect, depending on the amount of comments you're retrieving there's a big chance some data is lost, for me it's been about 10% depending on the size. 
 
