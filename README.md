@@ -1,7 +1,7 @@
-##Youtube Comment Scraper
+## Youtube Comment Scraper
 ![in-action](README/in-action.png)
 
-##What is this poorly written code?
+## What is this poorly written code?
 I'm glad you asked, this is my first attempt on a project that teaches me how to work with HTTP requests and to work against an API in python, namely the Youtube Data API. 
 
 The idea came from a request by [Nerdwriter1](https://www.youtube.com/user/Nerdwriter1), a Youtuber that creates video essays:
