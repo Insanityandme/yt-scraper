@@ -27,7 +27,7 @@ Either my script is poorly written and therefor it's slow or it just takes a lot
 
 I would love for this to be reviewed if anyone has any suggestions for improvements please mail me at bengtegardbook@gmail.com
 
-##Usage
+## Usage
 **Terminal**
 
 `python word_frequency.py --developerkey="my_google_developer_api_key" --videoid="youtube video_ID"`
@@ -37,11 +37,11 @@ identifies your google account for accessing youtube data API.
 
 The "videoid" option specifies the YouTube video ID that uniquely identifies the video for which the comments will be fetched.
 
-###Requirements
-####Python 2.7.x
+### Requirements
+#### Python 2.7.x
 I have been running this script on python 2.7.10 on Mac OSX, it should work on other 2.7.x versions. 
 
-####google-api-python-client 
+#### google-api-python-client 
 You can use pip:  
 
 `pip install --upgrade google-api-python-client`
@@ -49,11 +49,11 @@ You can use pip:
 You also need a google account and a developer key, you don't need to set up a OAuth, just make a project and create a new Public API access key. 
 More instructions here: https://developers.google.com/youtube/v3/getting-started
 
-###Thanks people on the internet
+### Thanks people on the internet
 http://stackoverflow.com/questions/29692972/youtube-comment-scraper-returns-limited-results
 http://programminghistorian.org/lessons/counting-frequencies
 
-###Reflection
+### Reflection
 Next time I code something substantial, Imma do my research before I start coding too much. This time I went with the "Prototype and Patching" approach, starting with a simple prototype and incrementally dealing with the complications. I think this approach works when you don't have a deep understanding of the problem but it generated a lot of code that is unnecessarily complicated. Unreliable too seeing as I didn't find all the errors.
 
 Next time I'm gonna try out the planned development approach suggested in think python. 
